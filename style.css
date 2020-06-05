@@ -1,0 +1,41 @@
+body {
+    background-color: darkslategrey;
+}
+
+#main {
+    width: 700px;
+    height: 700px;
+    margin: auto;
+}
+
+.pole {
+    border-style: none;
+    border-width: 2px;
+    width: 62px;
+    height: 62px;
+    float: left;
+    margin: 4px;
+    background-color: burlywood;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 60px;
+}
+
+.pole img {
+    width: 62px;
+    height: 62px;
+}
+
+.pole:hover {
+    background-color: lightcoral;
+    width: 68px;
+    height: 68px;
+    margin: 1px;
+}
+
+label {
+    font-size: 80px;
+    width: 200px;
+    height: 80px;
+}
